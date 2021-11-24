@@ -39,6 +39,8 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -203,11 +205,11 @@ Partial Class Form1
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 687)
+        Me.DataGridView1.Location = New System.Drawing.Point(152, 687)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 29
-        Me.DataGridView1.Size = New System.Drawing.Size(1063, 174)
+        Me.DataGridView1.Size = New System.Drawing.Size(731, 174)
         Me.DataGridView1.TabIndex = 18
         '
         'Button2
@@ -222,12 +224,38 @@ Partial Class Form1
         Me.Button2.Text = "Update"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.Location = New System.Drawing.Point(510, 611)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(115, 53)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "Delete"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Button4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button4.Location = New System.Drawing.Point(749, 300)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(115, 41)
+        Me.Button4.TabIndex = 21
+        Me.Button4.Text = "Search"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(1087, 873)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button1)
@@ -270,4 +298,6 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
 End Class

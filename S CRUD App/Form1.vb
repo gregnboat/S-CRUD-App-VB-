@@ -55,4 +55,25 @@ Public Class Form1
         MessageBox.Show("Successfully Updated.")
         LoadDataInGrid()
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If MessageBox.Show("are you sure to delete?", "Delete Document", MessageBoxButtons.YesNo) = DialogResult.Yes Then
+            Dim pid As Integer = Textproductid.Text
+            con.Open()
+            Dim command As New SqlCommand("delete Product_Setup_Tab where Product_ID = '" & pid & "'", con)
+            command.ExecuteNonQuery()
+            MessageBox.Show("Successfully Deleted.")
+            con.Close()
+            LoadDataInGrid()
+        End If
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim pid As Integer = Textproductid.Text
+        Dim command As New SqlCommand("select * from Product_Setup_Tab where Product_ID = '" & pid & "'", con)
+        Dim sda As New SqlDataAdapter(command)
+        Dim dt As New DataTable
+        sda.Fill(dt)
+        DataGridView1.DataSource = dt
+    End Sub
 End Class
