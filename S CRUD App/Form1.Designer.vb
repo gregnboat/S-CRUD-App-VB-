@@ -29,15 +29,16 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.Textproductid = New System.Windows.Forms.TextBox()
+        Me.Textitemname = New System.Windows.Forms.TextBox()
+        Me.Textdesign = New System.Windows.Forms.TextBox()
+        Me.Combocolor = New System.Windows.Forms.ComboBox()
+        Me.DateTimePickerinsert = New System.Windows.Forms.DateTimePicker()
+        Me.Radioallowed = New System.Windows.Forms.RadioButton()
+        Me.Radionotallowed = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -118,74 +119,74 @@ Partial Class Form1
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Item Name"
         '
-        'TextBox1
+        'Textproductid
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(391, 304)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(352, 30)
-        Me.TextBox1.TabIndex = 7
+        Me.Textproductid.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Textproductid.Location = New System.Drawing.Point(391, 304)
+        Me.Textproductid.Name = "Textproductid"
+        Me.Textproductid.Size = New System.Drawing.Size(352, 30)
+        Me.Textproductid.TabIndex = 7
         '
-        'TextBox2
+        'Textitemname
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(391, 360)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(352, 30)
-        Me.TextBox2.TabIndex = 8
+        Me.Textitemname.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Textitemname.Location = New System.Drawing.Point(391, 360)
+        Me.Textitemname.Name = "Textitemname"
+        Me.Textitemname.Size = New System.Drawing.Size(352, 30)
+        Me.Textitemname.TabIndex = 8
         '
-        'TextBox3
+        'Textdesign
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox3.Location = New System.Drawing.Point(391, 413)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(352, 30)
-        Me.TextBox3.TabIndex = 9
+        Me.Textdesign.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Textdesign.Location = New System.Drawing.Point(391, 413)
+        Me.Textdesign.Name = "Textdesign"
+        Me.Textdesign.Size = New System.Drawing.Size(352, 30)
+        Me.Textdesign.TabIndex = 9
         '
-        'ComboBox1
+        'Combocolor
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Black", "White", "Silver", "Gold"})
-        Me.ComboBox1.Location = New System.Drawing.Point(391, 467)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(352, 31)
-        Me.ComboBox1.TabIndex = 13
+        Me.Combocolor.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Combocolor.FormattingEnabled = True
+        Me.Combocolor.Items.AddRange(New Object() {"Black", "White", "Silver", "Gold"})
+        Me.Combocolor.Location = New System.Drawing.Point(391, 467)
+        Me.Combocolor.Name = "Combocolor"
+        Me.Combocolor.Size = New System.Drawing.Size(352, 31)
+        Me.Combocolor.TabIndex = 13
         '
-        'DateTimePicker1
+        'DateTimePickerinsert
         '
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(391, 524)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(352, 30)
-        Me.DateTimePicker1.TabIndex = 14
+        Me.DateTimePickerinsert.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePickerinsert.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePickerinsert.Location = New System.Drawing.Point(391, 524)
+        Me.DateTimePickerinsert.Name = "DateTimePickerinsert"
+        Me.DateTimePickerinsert.Size = New System.Drawing.Size(352, 30)
+        Me.DateTimePickerinsert.TabIndex = 14
         '
-        'RadioButton1
+        'Radioallowed
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.RadioButton1.Location = New System.Drawing.Point(391, 578)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(91, 27)
-        Me.RadioButton1.TabIndex = 15
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Allowed"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.Radioallowed.AutoSize = True
+        Me.Radioallowed.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Radioallowed.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Radioallowed.Location = New System.Drawing.Point(391, 578)
+        Me.Radioallowed.Name = "Radioallowed"
+        Me.Radioallowed.Size = New System.Drawing.Size(91, 27)
+        Me.Radioallowed.TabIndex = 15
+        Me.Radioallowed.TabStop = True
+        Me.Radioallowed.Text = "Allowed"
+        Me.Radioallowed.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'Radionotallowed
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.RadioButton2.Location = New System.Drawing.Point(618, 578)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(125, 27)
-        Me.RadioButton2.TabIndex = 16
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Not Allowed"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.Radionotallowed.AutoSize = True
+        Me.Radionotallowed.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Radionotallowed.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Radionotallowed.Location = New System.Drawing.Point(618, 578)
+        Me.Radionotallowed.Name = "Radionotallowed"
+        Me.Radionotallowed.Size = New System.Drawing.Size(125, 27)
+        Me.Radionotallowed.TabIndex = 16
+        Me.Radionotallowed.TabStop = True
+        Me.Radionotallowed.Text = "Not Allowed"
+        Me.Radionotallowed.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -209,21 +210,34 @@ Partial Class Form1
         Me.DataGridView1.Size = New System.Drawing.Size(1063, 174)
         Me.DataGridView1.TabIndex = 18
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.Location = New System.Drawing.Point(628, 611)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(115, 53)
+        Me.Button2.TabIndex = 19
+        Me.Button2.Text = "Update"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(1087, 873)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Radionotallowed)
+        Me.Controls.Add(Me.Radioallowed)
+        Me.Controls.Add(Me.DateTimePickerinsert)
+        Me.Controls.Add(Me.Combocolor)
+        Me.Controls.Add(Me.Textdesign)
+        Me.Controls.Add(Me.Textitemname)
+        Me.Controls.Add(Me.Textproductid)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -246,13 +260,14 @@ Partial Class Form1
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents Textproductid As TextBox
+    Friend WithEvents Textitemname As TextBox
+    Friend WithEvents Textdesign As TextBox
+    Friend WithEvents Combocolor As ComboBox
+    Friend WithEvents DateTimePickerinsert As DateTimePicker
+    Friend WithEvents Radioallowed As RadioButton
+    Friend WithEvents Radionotallowed As RadioButton
     Friend WithEvents Button1 As Button
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Button2 As Button
 End Class
