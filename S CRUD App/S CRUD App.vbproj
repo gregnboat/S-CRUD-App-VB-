@@ -20,6 +20,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\greig\Downloads\itextsharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
